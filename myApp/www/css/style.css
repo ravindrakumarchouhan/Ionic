@@ -1,0 +1,18 @@
+/* Empty. Add your own CSS if you like */
+.scroll-content { 
+	/* fallback */ 
+	background-color: #CBF1F5; 
+	background-image: url(images/radial_bg.png); 
+	background-position: center center; 
+	background-repeat: no-repeat; 
+	/* Safari 4-5, Chrome 1-9 */ 
+	/* Can't specify a percentage size? Laaaaaame. */ 
+	background: -webkit-gradient(radial, center center, 0, center center, 460, from(#F7FCFC), to(#CBF1F5)); 
+	/* Safari 5.1+, Chrome 10+ */ 
+	background: -webkit-radial-gradient(circle, #F7FCFC, #CBF1F5); 
+	/* Firefox 3.6+ */ 
+	background: -moz-radial-gradient(circle, #F7FCFC, #CBF1F5); 
+	/* IE 10 */ 
+	background: -ms-radial-gradient(circle, #F7FCFC, #CBF1F5); 
+	/* Opera couldn't do radial gradients, then at some point they started supporting the -webkit- syntax, how it kinda does but it's kinda broken (doesn't do sizing) */ 
+}
